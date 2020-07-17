@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -24,7 +18,7 @@ from keras.layers.merge import add
 
 
 model = load_model("model_9.h5")
-model._make_predict_function()
+# model._make_predict_function()
 
 # In[3]:
 
@@ -37,7 +31,7 @@ model_temp = ResNet50(weights="imagenet",input_shape=(224,224,3))
 
 
 model_resnet = Model(model_temp.input,model_temp.layers[-2].output)
-model_resnet._make_predict_function()
+# model_resnet._make_predict_function()
 
 # In[5]:
 
@@ -66,10 +60,10 @@ def encode_image(img):
 # In[7]:
 
 
-with open ("C:/Users/Amit/Documents/GitHub/Image-Captioning-Project/index_to_word_dictionary/word_to_idx.pkl","rb") as w2i:
+with open ("index_to_word_dictionary/word_to_idx.pkl","rb") as w2i:
     word_to_idx = pickle.load(w2i)
     
-with open ("C:/Users/Amit/Documents/GitHub/Image-Captioning-Project/index_to_word_dictionary/idx_to_word.pkl","rb") as i2w:
+with open ("index_to_word_dictionary/idx_to_word.pkl","rb") as i2w:
     idx_to_word = pickle.load(i2w)
 
 
