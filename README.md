@@ -1,6 +1,6 @@
 ## Image Captioning Project
  
-### AI Powered Multipurpose Platform for medical image analysis
+### AI Powered Multipurpose Platform 
 
 
 
