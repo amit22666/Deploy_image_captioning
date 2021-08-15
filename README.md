@@ -1,5 +1,7 @@
 # Image Captioning Project
 
+## Pipeline of the Image Captioning Project
+
 <img  src="pipeline.png"/> 
 
 ## Difficulties faced in this project
