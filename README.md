@@ -1,5 +1,7 @@
 # Image Captioning Project
 
+<img  src="pipeline.png"/> 
+
 ## Difficulties faced in this project
 
 1 Huge vocab size (8424)  -> Reducing vocab size -> Thresholding : 1652+2<br/>
