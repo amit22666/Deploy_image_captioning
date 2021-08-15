@@ -8,6 +8,22 @@
 2 How to identify start and end of the sentence -> added startseq token and endseq token to the vocabulary <br/>
 3 Training the model -> Model is trained using partial captions <br/>
 4
+
+## Introduction
+
+Image caption generation is a complicated task.
+
+The main challenge in this problem is to predict captions efficiently for a previously unseen image.
+
+Also, there can be multiple correct captions for the same image.
+
+Building deep learning based image caption generator involves deploying deep neural networks along with image processing techniques.
+
+## Motivation
+Help the Visually Impaired,
+Self Driving Cars,
+Skin Cancer Prediction,
+Classifying images in our Phone
  
 ## Dataset used - Flickr8k dataset
  
@@ -88,11 +104,7 @@ LEPOR
 Average bleu-score for the Inception model turns out to be 0.731262.
 Average bleu-score for the Resnet50 model turns out to be 0.69103.
 
-## Applications
-Help the Visually Impaired,
-Self Driving Cars,
-Skin Cancer Prediction,
-Classifying images in our Phone,
+,
 
 ##
 
