@@ -9,6 +9,24 @@
 3 Training the model -> Model is trained using partial captions <br/>
 4
 
+
+## Reasons for using Recurrent neural network(RNN):
+
+Artificial Neural Network (ANN) are stateless i.e. they do not remember the previous output.
+
+For caption prediction for an image we need a neuron which can remember the previous output i.e. sentence predicted till now.
+
+Hence here RNN comes into play as in RNN previous output can be fed again as the new input.
+
+
+## Reasons for using Convolutional neural network(CNN):
+
+Images consist of high dimension data(features), some of which may not be useful for training the model.
+
+There Is a need to extract relevant features from images so as to reduce training time and improve accuracy.
+
+Hence, CNN comes into play as it can be used for feature extraction from the images.
+
 ## Introduction
 
 Image caption generation is a complicated task.
